@@ -2,7 +2,7 @@ import sqlite3
 import subprocess
 from flask import Flask, request, render_template_string
 
-app = Flask(__name__)
+app = Flask(__name__) 
 
 def get_db():
     conn = sqlite3.connect("users.db")
