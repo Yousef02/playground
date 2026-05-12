@@ -8,7 +8,7 @@ import subprocess
 SECRET_KEY = "hardcoded-secret-key-12345"
 DB_PASSWORD = "admin123"
 
-
+ 
 def hash_password(password):
     return hashlib.md5(password.encode()).hexdigest()
 
